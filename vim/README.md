@@ -1,7 +1,6 @@
 ### requirements
 
-Your PC must connect the Internet.
-Installed Git & Vim.
+Your Computer must connect the Internet and be installed Git & Vim.
 
 ### If ~/.vimrc and ~/.vim/ exist, then backup your original vim config
 
