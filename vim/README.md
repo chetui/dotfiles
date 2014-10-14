@@ -57,13 +57,11 @@ git clone https://github.com/chetui/dotfiles.git
  ```
 
 6. Install python syntax checker lib:  
-
-```bash
-sudo pip install flake8
-```
-
+  ```
+  sudo pip install flake8
+  ```
+  
 7. [Optional] Syntax-based code completion plugin:  
-
 Configure YouCompleteMe:  
 (1) Remove neocomplcache plugin:  
 
