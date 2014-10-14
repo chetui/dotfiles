@@ -71,64 +71,64 @@ git clone https://github.com/chetui/dotfiles.git
   ```
   Comment neocomplcache plugin:
 
-```bash
-"Bundle 'Shougo/neocomplcache'
-
-...
-
-
-"" Plugin: neocomplcache {
-"...
-"" }
-```
-Remove neocomplcache plugin:
-
-```bash
-rm -rf ~/.vim/bundle/neocomplcache/
-```
-7.2 Install YouCompleteMe plugin:
-
-```bash
-vim ~/.vimrc
-```
-Uncomment YouCompleteMe plugin:
-
-```bash
-Bundle 'Valloric/YouCompleteMe'
-
-...
-
-" Plugin: YouCompleteMe {
-...
-" }
-```
-Install YouCompleteMe plugin:
-
-```bash
-vim +BundleInstall +qall
-```
-
-7.3 Configure C/C++ header files paths:
-
-```bash
-echo | clang -std=c++11 -stdlib=libc++ -v -E -x c++ -
-```
-Add the output paths after ***#include <...> search starts here:*** into ~/.ycm_extra_conf.py. 
-Notice insert ***'-isystem'*** before each paths.
-For example:
-
-```bash
-flags = [
-
-...
-
-'-isystem',
-'/output/path/one',
-'-isystem',
-'/output/path/two',
-]
-```
-
-7.4 YouCompleteMe plugin need to be compiled.  
-You can follow the [official install guide](https://github.com/Valloric/YouCompleteMe).  
-It is very easy for Mac OS X and Ubuntu 14.04 to install it.
+  ```bash
+  "Bundle 'Shougo/neocomplcache'
+  
+  ...
+  
+  
+  "" Plugin: neocomplcache {
+  "...
+  "" }
+  ```
+  Remove neocomplcache plugin:
+  
+  ```bash
+  rm -rf ~/.vim/bundle/neocomplcache/
+  ```
+  7.2 Install YouCompleteMe plugin:
+  
+  ```bash
+  vim ~/.vimrc
+  ```
+  Uncomment YouCompleteMe plugin:
+  
+  ```bash
+  Bundle 'Valloric/YouCompleteMe'
+  
+  ...
+  
+  " Plugin: YouCompleteMe {
+  ...
+  " }
+  ```
+  Install YouCompleteMe plugin:
+  
+  ```bash
+  vim +BundleInstall +qall
+  ```
+  
+  7.3 Configure C/C++ header files paths:
+  
+  ```bash
+  echo | clang -std=c++11 -stdlib=libc++ -v -E -x c++ -
+  ```
+  Add the output paths after ***#include <...> search starts here:*** into ~/.ycm_extra_conf.py. 
+  Notice insert ***'-isystem'*** before each paths.
+  For example:
+  
+  ```bash
+  flags = [
+  
+  ...
+  
+  '-isystem',
+  '/output/path/one',
+  '-isystem',
+  '/output/path/two',
+  ]
+  ```
+  
+  7.4 YouCompleteMe plugin need to be compiled.  
+  You can follow the [official install guide](https://github.com/Valloric/YouCompleteMe).  
+  It is very easy for Mac OS X and Ubuntu 14.04 to install it.
