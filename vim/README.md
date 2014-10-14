@@ -64,9 +64,8 @@ sudo pip install flake8
 
 7. [Optional] Syntax-based code completion plugin:
 
-
 Configure YouCompleteMe:  
-1) Remove neocomplcache plugin:  
+(1) Remove neocomplcache plugin:  
 
 ```bash
 vim ~/.vimrc
@@ -88,7 +87,7 @@ Remove neocomplcache plugin:
 ```bash
 rm -rf ~/.vim/bundle/neocomplcache/
 ```
-2) Install YouCompleteMe plugin:
+(2) Install YouCompleteMe plugin:
 
 ```bash
 vim ~/.vimrc
@@ -110,7 +109,7 @@ Install YouCompleteMe plugin:
 vim +BundleInstall +qall
 ```
 
-3) Configure C/C++ header files paths:
+(3) Configure C/C++ header files paths:
 
 ```bash
 echo | clang -std=c++11 -stdlib=libc++ -v -E -x c++ -
@@ -131,6 +130,6 @@ flags = [
 ]
 ```
 
-4) YouCompleteMe plugin need to be compiled.  
+(4) YouCompleteMe plugin need to be compiled.  
 You can follow the [official install guide](https://github.com/Valloric/YouCompleteMe).  
 It is very easy for Mac OS X and Ubuntu 14.04 to install it.
