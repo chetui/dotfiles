@@ -25,19 +25,19 @@ git clone https://github.com/chetui/dotfiles.git
  mv dotfiles/vim/.ycm_extra_conf.py ~  
  ```
 
-3. Download the plugin mamage plugin:
+3. Download the plugin mamage plugin:  
 
  ```bash
  git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
  ```
 
-4. Install all the plugins:
+4. Install all the plugins:  
 
  ```bash
  vim +BundleInstall +qall 
  ```
 
-5. Fix a bug of WinManager:
+5. Fix a bug of WinManager:  
 
  ```bash
  vim ~/.vim/bundle/winmanager/plugin/winmanager.vim
@@ -56,13 +56,13 @@ git clone https://github.com/chetui/dotfiles.git
      endfunction
  ```
 
-6. Install python syntax checker lib:
+6. Install python syntax checker lib:  
 
 ```bash
 sudo pip install flake8
 ```
 
-7. [Optional] Syntax-based code completion plugin:
+7. [Optional] Syntax-based code completion plugin:  
 
 Configure YouCompleteMe:  
 (1) Remove neocomplcache plugin:  
