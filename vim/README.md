@@ -62,13 +62,14 @@ git clone https://github.com/chetui/dotfiles.git
   ```
   
 7. [Optional] Syntax-based code completion plugin:  
-Configure YouCompleteMe:  
-(1) Remove neocomplcache plugin:  
 
-```bash
-vim ~/.vimrc
-```
-Comment neocomplcache plugin:
+  Configure YouCompleteMe:  
+  7.1 Remove neocomplcache plugin:  
+
+  ```bash
+  vim ~/.vimrc
+  ```
+  Comment neocomplcache plugin:
 
 ```bash
 "Bundle 'Shougo/neocomplcache'
@@ -85,7 +86,7 @@ Remove neocomplcache plugin:
 ```bash
 rm -rf ~/.vim/bundle/neocomplcache/
 ```
-(2) Install YouCompleteMe plugin:
+7.2 Install YouCompleteMe plugin:
 
 ```bash
 vim ~/.vimrc
@@ -107,7 +108,7 @@ Install YouCompleteMe plugin:
 vim +BundleInstall +qall
 ```
 
-(3) Configure C/C++ header files paths:
+7.3 Configure C/C++ header files paths:
 
 ```bash
 echo | clang -std=c++11 -stdlib=libc++ -v -E -x c++ -
@@ -128,6 +129,6 @@ flags = [
 ]
 ```
 
-(4) YouCompleteMe plugin need to be compiled.  
+7.4 YouCompleteMe plugin need to be compiled.  
 You can follow the [official install guide](https://github.com/Valloric/YouCompleteMe).  
 It is very easy for Mac OS X and Ubuntu 14.04 to install it.
