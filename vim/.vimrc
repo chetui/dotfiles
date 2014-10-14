@@ -134,6 +134,59 @@ set formatoptions+=mB
 let g:alternateSearchPath = 'reg:/include/src/g/,reg:/src/include/g/'
 " }
 
+" Plugin: rainbow_parentheses {
+let g:rbpt_colorpairs = [
+            \ ['blue',       '#FF6000'],
+            \ ['cyan', '#00FFFF'],
+            \ ['darkmagenta',    '#CC00FF'],
+            \ ['yellow',   '#E0E000'],
+            \ ['red',     '#E20000'],
+            \ ['darkgreen',    '#00D600'],
+            \ ['White',         '#c0c0c0'],
+            \ ['blue',       '#FF6000'],
+            \ ['cyan', '#00FFFF'],
+            \ ['darkmagenta',    '#CC00FF'],
+            \ ['yellow',   '#E0E000'],
+            \ ['red',     '#E20000'],
+            \ ['darkgreen',    '#00D600'],
+            \ ['White',         '#c0c0c0'],
+            \ ['blue',       '#FF6000'],
+            \ ['cyan', '#00FFFF'],
+            \ ['darkmagenta',    '#CC00FF'],
+            \ ['yellow',   '#E0E000'],
+            \ ['red',     '#E20000'],
+            \ ['darkgreen',    '#00D600'],
+            \ ['White',         '#c0c0c0'],
+            \ ]
+"            \ ['blue',       '#FF6000'],
+"            \ ['cyan', '#00FFFF'],
+"            \ ['darkmagenta',    '#CC00FF'],
+"            \ ['yellow',   '#FFFF00'],
+"            \ ['red',     '#FF0000'],
+"            \ ['darkgreen',    '#00FF00'],
+"            \ ['White',         '#c0c0c0'],
+"            \ ['blue',       '#FF6000'],
+"            \ ['cyan', '#00FFFF'],
+"            \ ['darkmagenta',    '#CC00FF'],
+"            \ ['yellow',   '#FFFF00'],
+"            \ ['red',     '#FF0000'],
+"            \ ['darkgreen',    '#00FF00'],
+"            \ ['White',         '#c0c0c0'],
+"            \ ['blue',       '#FF6000'],
+"            \ ['cyan', '#00FFFF'],
+"            \ ['darkmagenta',    '#CC00FF'],
+"            \ ['yellow',   '#FFFF00'],
+"            \ ['red',     '#FF0000'],
+"            \ ['darkgreen',    '#00FF00'],
+"            \ ['White',         '#c0c0c0'],
+let g:rbpt_max = 16
+let g:rbpt_loadcmd_toggle = 0
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+" }
+
 " Plugin: ShowMarks {
 " hide showmarks by default
 let g:showmarks_enable = 0
