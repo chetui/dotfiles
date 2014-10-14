@@ -1,0 +1,15 @@
+set-option default-path "/root/gitbank/libvsf"
+selectp -t 0             
+splitw -v
+selectp -t 0             
+killp
+rename-window "compile"
+
+set-option default-path "/root/gitbank/libvsf/src/"
+new-window -n "dev"
+
+set-option default-path "/root/gitbank/libvsf/test/"
+new-window -n "test"
+
+#splitw -v -l 15           
+#selectp -t 0             
