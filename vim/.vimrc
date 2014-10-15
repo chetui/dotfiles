@@ -32,6 +32,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
 " Custom Plugins {
+Bundle 'Yggdroot/indentLine'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'mbbill/undotree'
 Bundle 'mattn/webapi-vim'
@@ -376,6 +377,7 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_open_multiple_files = 'h'
 let g:ctrlp_open_new_file = 'r'
+let g:ctrlp_show_hidden = 1
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
 " set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 let g:ctrlp_custom_ignore = {
