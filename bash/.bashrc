@@ -1,7 +1,8 @@
-alias ls="ls -G"
-alias ll="ls -la"
+# ls
+#alias ls="ls -G"
+#alias ll="ls -la"
 
-#git
+# git
 export EDITOR=vim
 
 # cod
