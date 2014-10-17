@@ -117,6 +117,16 @@ set keymodel=startsel,stopsel
 map <C-c> "+y<CR>
 map! <C-v> <C-r>+
 nmap gp `[v`]
+
+nmap [n :cn<CR>
+nmap [p :cp<CR>
+
+"vimgrep
+map ft :call Search_Word()<CR>:copen<CR>
+function Search_Word()
+    let w = expand("<cword>")
+    execute "vimgrep " w " **"
+endfunction
 " }
 
 " Syntax related { 
