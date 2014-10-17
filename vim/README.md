@@ -58,6 +58,7 @@ git clone https://github.com/chetui/dotfiles.git
 
 6. Install python syntax checker lib:  
   ```
+  sudo apt-get install python-pip
   sudo pip install flake8
   ```
   
@@ -131,4 +132,6 @@ git clone https://github.com/chetui/dotfiles.git
   
   7.4 YouCompleteMe plugin need to be compiled.  
   You can follow the [official install guide](https://github.com/Valloric/YouCompleteMe).  
-  It is very easy for Mac OS X and Ubuntu 14.04 to install it.
+  It is very easy for Mac OS X and Ubuntu 14.04 to install it. For other Debian-based distro, e.g Ubuntu 12.04, you need to compile and update you Vim first.  
+  [Official install guide for Mac OS X](https://github.com/Valloric/YouCompleteMe#mac-os-x-super-quick-installation)  
+  [Official install guide for Ubuntu Linux x64](https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64-super-quick-installation)
