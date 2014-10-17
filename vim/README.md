@@ -2,9 +2,9 @@
 
 Your Computer must connect the Internet and be installed Git & Vim.
 
-### Key Mapping & User Guide
+### Key Mapping & Tutorial
 
-[Key Mapping & User Guide](https://www.evernote.com/shard/s257/sh/6c0d6c01-9f19-4f27-87c9-57f4f0b01bad/82297dec2e813f765157cf5f5be95b16) (Only Chinese version currently.)
+[Key Mapping & Tutorial](https://www.evernote.com/shard/s257/sh/6c0d6c01-9f19-4f27-87c9-57f4f0b01bad/82297dec2e813f765157cf5f5be95b16) (Only Chinese version currently.)
 
 ### Installation
 
