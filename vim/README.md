@@ -1,15 +1,21 @@
-### requirements
+### Requirements
 
 Your Computer must connect the Internet and be installed Git & Vim.
 
-### If ~/.vimrc and ~/.vim/ exist, then backup your original vim config
+### Key Mapping & Tutorial
+
+[Key Mapping & Tutorial](https://www.evernote.com/shard/s257/sh/6c0d6c01-9f19-4f27-87c9-57f4f0b01bad/82297dec2e813f765157cf5f5be95b16) (Only Chinese version currently.)
+
+### Installation
+
+If ~/.vimrc and ~/.vim/ exist, then backup your original vim config
 
 ```bash
 mv ~/.vimrc ~/.vimrc.old
 mv ~/.vim ~/.vim.old
 ```
 
-### do following steps
+Then do following steps.
 
 1. Download this repo:  
 
@@ -132,6 +138,6 @@ git clone https://github.com/chetui/dotfiles.git
   
   7.4 YouCompleteMe plugin need to be compiled.  
   You can follow the [official install guide](https://github.com/Valloric/YouCompleteMe).  
-  It is very easy for Mac OS X and Ubuntu 14.04 to install it. For other Debian-based distro, e.g Ubuntu 12.04, you need to compile and update you Vim first.  
+  It is very easy for Mac OS X and Ubuntu 14.04 to install it. For other Debian-based distro, e.g Ubuntu 12.04, you need to compile and update your Vim first.  
   [Official install guide for Mac OS X](https://github.com/Valloric/YouCompleteMe#mac-os-x-super-quick-installation)  
   [Official install guide for Ubuntu Linux x64](https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64-super-quick-installation)
