@@ -80,8 +80,9 @@ set shellslash
 " }
 
 "   UI related {
-set background=dark
 colorscheme lucius
+LuciusBlack
+"LuciusDark
 set ruler
 set showmatch
 set hlsearch
