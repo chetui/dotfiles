@@ -118,6 +118,7 @@ git clone https://github.com/chetui/dotfiles.git
   7.3 Configure C/C++ header files paths:
   
   ```bash
+  apt-get install clang
   echo | clang -std=c++11 -stdlib=libc++ -v -E -x c++ -
   ```
   Add the output paths after ***#include <...> search starts here:*** into ~/.ycm_extra_conf.py. 
