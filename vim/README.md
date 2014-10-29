@@ -67,11 +67,37 @@ git clone https://github.com/chetui/dotfiles.git
   sudo apt-get install python-pip
   sudo pip install flake8
   ```
+
+7. [Optional] Multi-files Search plugin -- CtrlSF:  
+
+  Configure CtrlSF:  
+  7.1 Install CtrlSF:
+  ```bash
+  vim ~/.vimrc
+  ```
+  Uncomment YouCompleteMe plugin:
   
-7. [Optional] Syntax-based code completion plugin:  
+  ```bash
+  Bundle 'dyng/ctrlsf.vim'
+  
+  ...
+  
+  " Plugin: CtrlSF {
+  ...
+  " }
+  ```
+  Install CtrlSF plugin:
+  
+  ```bash
+  vim +BundleInstall +qall
+  ```
+  7.2 Install Ag:  
+  [Official Guide](https://github.com/ggreer/the_silver_searcher#installation)  
+  
+8. [Optional] Syntax-based code completion plugin -- YouCompleteMe:  
 
   Configure YouCompleteMe:  
-  7.1 Remove neocomplcache plugin:  
+  8.1 Remove neocomplcache plugin:  
 
   ```bash
   vim ~/.vimrc
@@ -93,7 +119,7 @@ git clone https://github.com/chetui/dotfiles.git
   ```bash
   rm -rf ~/.vim/bundle/neocomplcache/
   ```
-  7.2 Install YouCompleteMe plugin:
+  8.2 Install YouCompleteMe plugin:
   
   ```bash
   vim ~/.vimrc
@@ -115,7 +141,7 @@ git clone https://github.com/chetui/dotfiles.git
   vim +BundleInstall +qall
   ```
   
-  7.3 Configure C/C++ header files paths:
+  8.3 Configure C/C++ header files paths:
   
   ```bash
   apt-get install clang
@@ -137,7 +163,7 @@ git clone https://github.com/chetui/dotfiles.git
   ]
   ```
   
-  7.4 YouCompleteMe plugin need to be compiled.  
+  8.4 YouCompleteMe plugin need to be compiled.  
   You can follow the [official install guide](https://github.com/Valloric/YouCompleteMe).  
   It is very easy for Mac OS X and Ubuntu 14.04 to install it. For other Debian-based distro, e.g Ubuntu 12.04, you need to compile and update your Vim first.  
   [Official install guide for Mac OS X](https://github.com/Valloric/YouCompleteMe#mac-os-x-super-quick-installation)  

@@ -32,7 +32,8 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
 " Custom Plugins {
-Bundle 'Yggdroot/indentLine'
+Bundle 'dyng/ctrlsf.vim'
+"Bundle 'Yggdroot/indentLine'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'mbbill/undotree'
 Bundle 'mattn/webapi-vim'
@@ -407,6 +408,12 @@ let g:syntastic_enable_signs = 1
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_python_flake8_args = '--ignore="E501,E302,E261,E701,E241,E126,E127,E128,W801"'
 nnoremap gx <ESC>:Errors<CR>
+" }
+
+" Plugin: CtrlSF {
+let g:ctrlsf_auto_close = 0
+nnoremap <C-F> :CtrlSF<space>
+    let g:ctrlsf_selected_line_hl = 'op'
 " }
 
 " Plugin: neocomplcache {
