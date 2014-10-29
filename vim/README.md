@@ -75,7 +75,7 @@ git clone https://github.com/chetui/dotfiles.git
   ```bash
   vim ~/.vimrc
   ```
-  Uncomment YouCompleteMe plugin:
+  Uncomment CtrlSF plugin:
   
   ```bash
   Bundle 'dyng/ctrlsf.vim'
@@ -91,8 +91,9 @@ git clone https://github.com/chetui/dotfiles.git
   ```bash
   vim +BundleInstall +qall
   ```
-  7.2 Install Ag:  
-  [Official Guide](https://github.com/ggreer/the_silver_searcher#installation)  
+  7.2 Install Ag: 
+  The CtrlSF is based on the Ag. Please follow the official install guide:
+  [Official Install Guide](https://github.com/ggreer/the_silver_searcher#installation)  
   
 8. [Optional] Syntax-based code completion plugin -- YouCompleteMe:  
 
@@ -164,7 +165,7 @@ git clone https://github.com/chetui/dotfiles.git
   ```
   
   8.4 YouCompleteMe plugin need to be compiled.  
-  You can follow the [official install guide](https://github.com/Valloric/YouCompleteMe).  
+  You can follow the [Official Install Guide](https://github.com/Valloric/YouCompleteMe).  
   It is very easy for Mac OS X and Ubuntu 14.04 to install it. For other Debian-based distro, e.g Ubuntu 12.04, you need to compile and update your Vim first.  
-  [Official install guide for Mac OS X](https://github.com/Valloric/YouCompleteMe#mac-os-x-super-quick-installation)  
-  [Official install guide for Ubuntu Linux x64](https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64-super-quick-installation)
+  [Official Install Guide for Mac OS X](https://github.com/Valloric/YouCompleteMe#mac-os-x-super-quick-installation)  
+  [Official Install Guide for Ubuntu Linux x64](https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64-super-quick-installation)
