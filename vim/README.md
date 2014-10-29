@@ -91,9 +91,9 @@ git clone https://github.com/chetui/dotfiles.git
   ```bash
   vim +BundleInstall +qall
   ```
-  7.2 Install Ag: 
-  The CtrlSF is based on the Ag. Please follow the official install guide:
-  [Official Install Guide](https://github.com/ggreer/the_silver_searcher#installation)  
+  7.2 Install Ag:   
+  The CtrlSF is based on the Ag. Please follow the official install guide:   
+  [Official Install Guide](https://github.com/ggreer/the_silver_searcher#installation)   
   
 8. [Optional] Syntax-based code completion plugin -- YouCompleteMe:  
 
