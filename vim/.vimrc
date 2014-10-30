@@ -412,7 +412,7 @@ nnoremap gx <ESC>:Errors<CR>
 
 " Plugin: CtrlSF {
 let g:ctrlsf_auto_close = 0
-nnoremap <C-F> :CtrlSF<space>
+nnoremap <C-A> :CtrlSF<space>
     let g:ctrlsf_selected_line_hl = 'op'
 " }
 
