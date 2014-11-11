@@ -377,6 +377,7 @@ let g:Tex_ViewRule_pdf = 'okular'
 " Plugin: Cpp11-Syntax-Support {
 au BufNewFile,BufRead *.cpp set syntax=cpp11
 au BufNewFile,BufRead *.hpp set syntax=cpp11
+au BufNewFile,BufRead *.c0 set filetype=c
 " }
 
 " Plugin: vim-powerline {
