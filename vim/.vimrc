@@ -92,8 +92,8 @@ set number
 set visualbell
 set cursorcolumn
 set cursorline
-set mouse=a
-set mousemodel=popup
+"set mouse=a
+"set mousemodel=popup
 "g:lucius_style='dark'
 "autocmd VimEnter * set ttymouse=xterm2
 "autocmd FocusGained * set ttymouse=xterm2
